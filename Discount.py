@@ -9,9 +9,19 @@ DISCOUNT_RATE = 0.1
 SALES_TAX_RATE = 0.06
 
 current_date_and_time = datetime.now();
-current_day_of_the_week = current_date_and_time.weekday();
+weekday = current_date_and_time.weekday();
 
 
 
 
 # Compute and Print the discount amount
+weekday = TUES
+
+if weekday  == TUES or weekday == WEDS: 
+    if  Subtotal >= 50:
+        discount_amount = Subtotal * DISCOUNT_RATE
+        Subtotal = Subtotal - discount_amount
+        print(f" Discount amount: ${discount_amount:.2f}")
+
+
+# Compute and Print the sales tax amount
