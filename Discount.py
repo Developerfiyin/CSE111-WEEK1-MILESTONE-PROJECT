@@ -25,3 +25,4 @@ if weekday  == TUES or weekday == WEDS:
 
 
 # Compute and Print the sales tax amount
+SALES_TAX_RATE 
